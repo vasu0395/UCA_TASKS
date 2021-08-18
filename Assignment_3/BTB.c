@@ -55,6 +55,7 @@ int invert(int x , int p , int n)
     return (x ^ answer);
 }
 
+// function for conditional using bitwise
 int conditional(int x, int y, int z)
 {  
     // (!x) + ~0 will give 0 if x is 0 else -1
@@ -63,6 +64,7 @@ int conditional(int x, int y, int z)
     return  ((check & (y ^ z)  ) ^ z) ;
 }
 
+// function for logicalShift
 int logicalShift(unsigned int x, int n) {
 	
 	//arithemetic shift to n position
@@ -85,6 +87,7 @@ int Bang(int x)
     return (complement_number_2s >> 31) + 1;
 }
 
+// Function for Bitwise and
 int bitAnd(int x,int y)
 {
     // one complement (~) bits of x and (&) y , then taking or (|) of it.
