@@ -48,7 +48,7 @@ int invert(int x , int p , int n)
     // To set last n bits to 1 and make other bits 0.
     int answer = (~(~0 << n));
     
-    // shifting the 1's group to position p by left shifting the answer by p+1-n.
+    // shifting the 1's group to position p by left shift.
     answer = answer << (p  - n);
     
     //inverting the bits using xor operator.
