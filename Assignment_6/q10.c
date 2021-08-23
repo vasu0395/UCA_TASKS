@@ -39,12 +39,12 @@ struct ListNode *detectCycle(struct ListNode *head) {
         {
             slow = head;
             // cycle detect 
-			while(slow != fast)
+	    while(slow != fast)
             {
-				slow = slow -> next;
-				fast = fast -> next;
-			}
-			return slow;
+	        slow = slow -> next;
+		fast = fast -> next;
+	    }
+	    return slow;
         }
     }
     
