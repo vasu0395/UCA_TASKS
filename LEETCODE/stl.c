@@ -173,7 +173,7 @@ bool find(void** arr,int l,int r,void* x)
 }
 
 // Function to transform array i.e increment values of array by x.
-void transform(void** arr,int n,void* x)
+void transform(void** arr , int n , void* x)
 {
     // iterate and increment values by x.
     for(int i=0;i<n;i++)
