@@ -178,6 +178,6 @@ void transform(void** arr,int n,void* x)
     // iterate and increment values by x.
     for(int i=0;i<n;i++)
     {
-        *(int *)arr[i]=*(int *)arr[i] + *(int *)x;
+        *(int *)arr[i] = *(int *)arr[i] + *(int *)x;
     }
 }
